@@ -9,7 +9,8 @@
 4. Clone the repo and cd into it
 <pre>git clone https://github.com/jrhite/ETHOnlineProj && cd ETHOnlineProj</pre>
 5. Install deps with yarn `yarn`
-6. Start hardhat `hh node --watch --show-accounts`
+6. Copy the `.env-template` file to `.env`, then follow the note in the `.env` file to add your API keys.
+7. Start hardhat `hh node --watch --show-accounts`
 
 ## Compile and deploy contracts for the hardhat **localhost** network (note: this is different from the default hardhat network)
 1. Open up a 2nd terminal
